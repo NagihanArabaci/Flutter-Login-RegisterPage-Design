@@ -6,22 +6,7 @@ import 'package:login_desing/models/model.dart';
 import 'package:login_desing/pages/register.dart';
 import 'package:login_desing/pages/signinPage.dart';
 
-// final _imageList=[
-//   'assets/home.jpg',
-//   'assets/home.jpg',
-//   'assets/home.jpg',
-// ];
-// final List<String> _titleImage=[
-//   'Title image 1',
-//   'Title image 2',
-//   'Title image 3'
 
-// ];
-// final List<String> _textImage=[
-//   'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. '
-// 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. '
-// 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. '
-// ];
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -127,23 +112,7 @@ class _LoginPageState extends State<LoginPage> {
 
                   ],
                 ),
-                // child: ListView.separated(
-                //     scrollDirection: Axis.horizontal,
-                //     itemBuilder: (context, index) {
-                //       double size = currentIndex == index ? 20 : 10;
-                //       return Container(
-                //         padding: EdgeInsets.only(left: 25, right: 25),
-                //         height: size,
-                //         width: size,
-                //         decoration: const BoxDecoration(
-                //           color: Colors.blue,
-                //           shape: BoxShape.circle,
-                //         ),
-                //       );
-                //     },
-                //     separatorBuilder: (context, index) => const SizedBox(width: 20),
-                //     itemCount: items.length),
-              ),
+   
               SizedBox(
                 height: 80,
                 child: Row(
